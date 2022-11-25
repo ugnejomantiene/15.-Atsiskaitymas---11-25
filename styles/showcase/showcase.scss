@@ -1,0 +1,62 @@
+
+.showcase_cards {
+    display: flex;
+    overflow-x: scroll;
+    height: 300px;
+    border-bottom: 1px solid grey;
+}
+.card {
+    width: 200px;
+    padding: 5px;
+   .card_img {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px 20px 0 0 ;
+   }
+}
+.img1 {
+    background-image: url(/images/card1.png);
+}
+.img2 {
+    background-image: url(/images/card2.png);
+}
+.img3 {
+    background-image: url(/images/card3.png);
+}
+.img4 {
+    background-image: url(/images/card4.png);
+}
+.card_text {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #CCCCCC;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+.gld {
+    color: orange;
+}
+br {
+    border-radius: 0 0 20px 20px;
+}
+
+@media (min-width:600px) {
+    .card {
+        width: 200px;
+        .card_text {
+            width: 200px;
+        }
+    }
+  
+}

@@ -1,0 +1,16 @@
+#upsell {
+  background-image: linear-gradient(to right top, #39FFA0, #FF3939, #FF3998, #FF8139, #39FFA0);
+  opacity: 0.9;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.upsell {
+  padding: 10px;
+}
+.upsell p {
+  color: black;
+}/*# sourceMappingURL=upsell.css.map */

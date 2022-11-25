@@ -1,0 +1,51 @@
+:root {
+    --color-main-grey: #999999;
+    --color-pink: #FF3998;
+    --color-orange: #FF8139;
+    --color-green: #39FFA0;
+    --color-red: #FF3939;
+    --padding-main: 10px;
+
+}
+
+/* Pasikartojimai */
+
+body {
+    font-family: sans-serif;
+}
+h1 {
+    margin: 0;
+    padding: 20px 5px;
+}
+h4 {
+    margin: 0;
+}
+h5 {
+    color: var(--color-pink);
+    padding: 5px;
+    margin: 0;
+}
+.bt {
+    font-size: 40px;
+}
+.fa-solid {
+    padding: 5px;
+}
+p {
+    color: var(--color-main-grey);
+    margin:0;
+    font-size: 15px;
+}
+section {
+    padding-top: 50px;
+}
+.btn {
+    border-radius: 100rem;
+    font-size: 1rem;
+    padding: 10px;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+

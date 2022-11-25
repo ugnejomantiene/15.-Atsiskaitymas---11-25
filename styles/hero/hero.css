@@ -1,0 +1,40 @@
+#hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 350px;
+}
+#hero .hero_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+#hero button {
+  border-radius: 50px;
+}
+
+.hero_image {
+  height: 100px;
+}
+.hero_image .robo {
+  background-image: url(/images/hero.png);
+  width: 140px;
+  height: 220px;
+  background-size: cover;
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+
+@media (min-width: 600px) {
+  #hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero_image {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=hero.css.map */

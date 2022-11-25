@@ -1,0 +1,17 @@
+@import url('https://necolas.github.io/nozzzrmalize.css/8.0.1/normalize.css');
+
+/* Mano CSS */
+@import url("common/common.css");
+@import url("header/header.css");
+@import url("hero/hero.css");
+@import url("upsell/upsell.css");
+@import url("press/press.css");
+@import url("showcase/showcase.css");
+@import url("launching/launching.css");
+@import url("footer/footer.css");
+
+@media (min-width:600px){
+    body {
+        padding: 20px;
+    }
+}

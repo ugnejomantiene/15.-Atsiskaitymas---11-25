@@ -1,0 +1,44 @@
+#press {
+  display: grid;
+  grid-template: repeat(2, 1fr), repeat(2, 1fr);
+}
+
+.press_mini {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}
+
+.icon1 {
+  grid-area: 1/1/2/2;
+  color: grey;
+}
+
+.icon2 {
+  grid-area: 1/2/2/3;
+  color: grey;
+}
+
+.icon3 {
+  grid-area: 2/1/3/2;
+  color: grey;
+}
+
+.icon4 {
+  display: none;
+  color: grey;
+}
+
+.icon5 {
+  grid-area: 2/2/3/3;
+  color: grey;
+}
+
+@media (min-width: 600px) {
+  .icon4 {
+    display: flex;
+  }
+  #press {
+    display: flex;
+  }
+}/*# sourceMappingURL=press.css.map */
